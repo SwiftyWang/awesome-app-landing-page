@@ -11,8 +11,10 @@ app:
   name: 静听小说 # REQUIRED - Enter your app name
   ios_id: null # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: com.swifty.bookplayer # Optional - Enter Android app id like: com.example.app
+  android_file: release/app-release.apk
 
-  icon: # Leave blank to auto-magically populate
+  icon: playstore-icon.png
+  # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
@@ -22,7 +24,8 @@ app:
   # e.g. images/app-favicon.png - can be .ico or .png
   # 16px or greater, square
 
-  screenshot: # Leave blank to auto-magically populate
+  screenshot: images/app-screen-640x1136.png.png
+  # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-screen-640x1136.png
   # 640x1136px
@@ -42,9 +45,8 @@ app:
 #
 # Marketing
 #
-marketing_header: Does Awesome Stuff # Optional
-marketing_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+marketing_header: 海量免费小说在线收听 # Optional
+marketing_desc: 大量免费连载，完结小说。可记录当前播放进度和集数，方便下次继续收听！无需任何权限，杜绝流氓App！操作简单，仅需在网页中选择想要收听的小说，或特定某集。点击下方按钮。即可后台连续播放。
 #
 # Social Links
 #
