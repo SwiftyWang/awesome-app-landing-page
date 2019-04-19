@@ -13,7 +13,7 @@ app:
   android_id: com.swifty.bookplayer # Optional - Enter Android app id like: com.example.app
   android_file: release/app-release.apk
 
-  icon: playstore-icon.png
+  icon: images/playstore-icon.png
   # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-icon-512.png
@@ -24,7 +24,7 @@ app:
   # e.g. images/app-favicon.png - can be .ico or .png
   # 16px or greater, square
 
-  screenshot: images/app-screen-640x1136.png.png
+  screenshot: images/screencap_1555659993.png
   # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-screen-640x1136.png
